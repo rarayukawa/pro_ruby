@@ -1,0 +1,12 @@
+def greeting(country)
+  #countryがnilならメッセージを返してメゾットを抜ける
+  #(nil?はオブジェクトがnilの場合にtrueを返すメゾット)
+  return 'countryを入力してください' if country.nil?
+  if country == 'japan'
+    'こんにちは'
+  else
+    'hello'
+  end
+end
+greeting(nil)
+greeting('japan')
