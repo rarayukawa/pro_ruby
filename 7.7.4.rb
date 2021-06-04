@@ -5,6 +5,7 @@ class User
     def self.hello
       'Hello!'
     end
+    
   end
 
   #クラスメソッドはprivateメソッドにならない！
