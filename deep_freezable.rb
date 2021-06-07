@@ -14,3 +14,4 @@ module DeepFreezable
     array_or_hash.freeze
   end
 end
+
